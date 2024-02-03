@@ -1,6 +1,6 @@
-import styles from "./profile.module.scss"
+import styles from "./Profile.module.scss"
 
-const profile=() => {
+const Profile=() => {
     return(
         <div>
         <div className={styles.left}>
@@ -14,4 +14,4 @@ const profile=() => {
         </div>
     )
 }
-export default profile
+export default Profile
