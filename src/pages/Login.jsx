@@ -4,7 +4,7 @@ const Login = () => {
   return (
     <div className={styles.wrapper}>
       <form>
-        <h1>Login</h1>
+        <h1>Login to your Account</h1>
         <div className={styles.inputBox}>
             <input type="text" placeholder="Username" required/>
         </div >
@@ -12,7 +12,6 @@ const Login = () => {
         <input type="password" placeholder="Password" required/>
         </div>
         <div className={styles.remFor}>
-            <label><input type="checkbox"/> Remember me</label>
             <a href="#">Forgot password?</a>
         </div>
         <button type="submit" className={styles.btn} >Login</button>
