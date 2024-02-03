@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './XPProgressBar.scss';
+
 
 const XPProgressBar = () => {
     const [currentXP, setCurrentXP] = useState(0);
