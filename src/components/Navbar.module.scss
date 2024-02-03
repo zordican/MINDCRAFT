@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:wght@400;700&display=swap");
+
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 8rem;
+  top: 0;
+  align-items: center;
+  justify-content: center;
+  left: 0;
+  .logo{
+    position: fixed;
+    left: 2rem;
+    top: 0.5rem;
+  }
+  nav {
+    ul {
+      display: flex;
+      li {
+        text-decoration: none;
+        list-style-type: none;
+
+        a {
+          text-decoration: none;
+          color: inherit;
+          font-weight: 500;
+          font-family: "Inria Sans", sans-serif;
+          font-size: 1.3rem;
+          margin: 0rem 2rem;
+          background: linear-gradient(
+              to right,
+              rgba(100, 200, 200, 1),
+              rgba(100, 200, 200, 1)
+            ),
+            linear-gradient(
+              to right,
+              rgba(255, 0, 0, 1),
+              rgba(255, 0, 180, 1),
+              rgba(0, 100, 200, 1)
+            );
+          background-size: 100% 3px, 0 3px;
+          background-position: 100% 100%, 0 100%;
+          background-repeat: no-repeat;
+          transition: background-size 400ms;
+        }
+        a:hover {
+            background-size: 0 3px, 100% 3px;
+          }
+      }
+    }
+  }
+}
