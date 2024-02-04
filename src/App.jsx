@@ -1,12 +1,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./assets/home";
 import Test from "./assets/test";
-// import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar";
 import Hero from "./pages/Hero";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
 import Profile from "./pages/Profile";
-// import Sidebar from "./components/Sidebar";
+
 
 
 function App() {
@@ -14,8 +14,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      {/* <Navbar/> */}
-      {/* <Sidebar/> */}
+     
         <Routes>
           <Route exact path="/" element={<Home/>}/>
           <Route exact path="/test" element={<Test/>}/>
@@ -23,7 +22,7 @@ function App() {
           <Route exact path="/landing" element={<Landing/>}/>
           <Route exact path="/login" element={<Login/>}/>
           <Route exact path="/profile" element={<Profile/>}/>
-          {/* <Route exact path="/sidebar" element={<Sidebar/>}></Route> */}
+          
         </Routes>
       </BrowserRouter>
     </>
