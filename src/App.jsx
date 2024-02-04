@@ -5,7 +5,9 @@ import Test from "./assets/test";
 import Hero from "./pages/Hero";
 import Landing from "./pages/Landing";
 import Login from "./pages/Login";
+import Profile from "./pages/Profile";
 // import Sidebar from "./components/Sidebar";
+
 
 function App() {
 
@@ -19,7 +21,8 @@ function App() {
           <Route exact path="/test" element={<Test/>}/>
           <Route exact path="/hero" element={<Hero/>}/>
           <Route exact path="/landing" element={<Landing/>}/>
-          <Route exact path="/login" element={<Login/>}></Route>
+          <Route exact path="/login" element={<Login/>}/>
+          <Route exact path="/profile" element={<Profile/>}/>
           {/* <Route exact path="/sidebar" element={<Sidebar/>}></Route> */}
         </Routes>
       </BrowserRouter>

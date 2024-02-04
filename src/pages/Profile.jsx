@@ -6,6 +6,7 @@ const Profile = () => {
     <>
     <Navbar/>
     <div className={styles.container}>
+    <div className={styles.child1}>
       <div className={styles.left}>
         <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
         <h2 className={styles.lvl}>LEVEL 60</h2>
@@ -33,8 +34,62 @@ const Profile = () => {
           <h4>XP</h4>
         </div>
       </div>
+      </div>
+      <div className={styles.child2}>
+    <div className={styles.plyrsadd}>
+      <h2>PLAYERS ADDED</h2>
     </div>
-    </>
+    <div className={styles.players}>
+      <div className={styles.player}>
+        <div className={styles.img}>
+          <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
+        </div>
+        <div className={styles.name}>
+          <h3>NAME</h3>
+        </div>
+        <div className={styles.rpbar}><h6>RP</h6></div>
+        <div className={styles.xpbar}><h6>XP</h6></div>
+      </div><div className={styles.player}>
+        <div className={styles.img}>
+          <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
+        </div>
+        <div className={styles.name}>
+          <h3>NAME</h3>
+        </div>
+        <div className={styles.rpbar}><h6>RP</h6></div>
+        <div className={styles.xpbar}><h6>XP</h6></div>
+      </div><div className={styles.player}>
+        <div className={styles.img}>
+          <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
+        </div>
+        <div className={styles.name}>
+          <h3>NAME</h3>
+        </div>
+        <div className={styles.rpbar}><h6>RP</h6></div>
+        <div className={styles.xpbar}><h6>XP</h6></div>
+      </div><div className={styles.player}>
+        <div className={styles.img}>
+          <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
+        </div>
+        <div className={styles.name}>
+          <h3>NAME</h3>
+        </div>
+        <div className={styles.rpbar}><h6>RP</h6></div>
+        <div className={styles.xpbar}><h6>XP</h6></div>
+      </div><div className={styles.player}>
+        <div className={styles.img}>
+          <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
+        </div>
+        <div className={styles.name}>
+          <h3>NAME</h3>
+        </div>
+        <div className={styles.rpbar}><h6>RP</h6></div>
+        <div className={styles.xpbar}><h6>XP</h6></div>
+      </div>
+    </div>
+</div>    
+</div>
+</>
   );
 };
 export default Profile;

@@ -180,11 +180,13 @@ const Hero = () => {
                 <h4 className={styles.xp}>Earn 500 XP</h4>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+            </div>
     </div>
+    </div>
+    </div>
+
     </>
+
   );
 };
 
