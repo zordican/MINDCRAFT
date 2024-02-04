@@ -1,8 +1,24 @@
 import styles from "./Land.module.scss";
+import { useState } from "react";
+import Login from "./Login";
 
 const Landing = () => {
-  return (
+    const [modal, setModal] = useState(false);
+
+    const toggleModal = () =>{
+        setModal(!modal)
+    }
+  
+    return (
+        
     <div className={styles.Maindiv}>
+        {modal && (
+            <div className={styles.ModalWrapper}>
+            <div className={styles.overlay} onClick={toggleModal}></div>
+            <div className={styles.Modal}><Login/></div>
+        </div>
+            )}
+        
       <div className={styles.logo}>
         <img
           className={styles.logo_img}
@@ -24,7 +40,7 @@ const Landing = () => {
         earn XP by playing mind boosting games and unlock achievements to
         compete against other players
       </p>
-      <button className={styles.btn} type="button">GET STARTED</button>
+      <button className={styles.btn} type="button" onClick={toggleModal}>GET STARTED</button>
     </div>
   );
 };

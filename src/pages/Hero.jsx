@@ -1,8 +1,14 @@
+import Navbar from "../components/Navbar";
+import Sidebar from "../components/Sidebar";
 import styles from "./Hero.module.scss";
 
 const Hero = () => {
   return (
+    <>
+    
     <div>
+    <Navbar/>
+    <Sidebar/>
       <div className={styles.container}>
         <div className={styles.head}>
           <h2>MUST TODO...</h2>
@@ -178,6 +184,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
