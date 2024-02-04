@@ -4,6 +4,8 @@ import styles from "./Hero.module.scss";
 
 const Hero = () => {
   return (
+    <>
+    
     <div>
     <Navbar/>
     <Sidebar/>
@@ -182,7 +184,9 @@ const Hero = () => {
     </div>
     </div>
     </div>
-    
+
+    </>
+
   );
 };
 
