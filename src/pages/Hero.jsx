@@ -4,8 +4,6 @@ import styles from "./Hero.module.scss";
 
 const Hero = () => {
   return (
-    <>
-    
     <div>
     <Navbar/>
     <Sidebar/>
@@ -180,11 +178,11 @@ const Hero = () => {
                 <h4 className={styles.xp}>Earn 500 XP</h4>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
+            </div>
     </div>
-    </>
+    </div>
+    </div>
+    
   );
 };
 

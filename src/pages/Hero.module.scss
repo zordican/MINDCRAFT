@@ -4,9 +4,9 @@
 
 
 .container{
-    
     margin-top: 100px;
-    margin-right: -50px;
+    margin-right: 0px;
+    min-height: 100vh;
     .head{
         font-family: "Inria Sans", sans-serif;
         text-align: start;
@@ -60,7 +60,6 @@
        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
        
-     
          }
      }
      
