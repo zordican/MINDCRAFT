@@ -1,4 +1,5 @@
 import styles from "./Login.module.scss"
+import {Link} from 'react-router-dom'
 
 const Login = () => {
   return (
@@ -14,7 +15,7 @@ const Login = () => {
         <div className={styles.remFor}>
             <a href="#">Forgot password?</a>
         </div>
-        <button type="submit" className={styles.btn} >Login</button>
+       <Link to='./hero'><button type="submit" className={styles.btn} >Login</button></Link> 
         {/* <div className={styles.registerLink}>
             <p> Don&apos;t have an account? <span className={styles.undrline}>Register</span> </p>
         </div> */}

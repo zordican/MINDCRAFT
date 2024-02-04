@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
 import styles from "./Profile.module.scss";
 
 const Profile = () => {
   return (
+    <>
+    <Navbar/>
     <div className={styles.container}>
     <div className={styles.child1}>
       <div className={styles.left}>
@@ -86,7 +89,7 @@ const Profile = () => {
     </div>
 </div>    
 </div>
-
+</>
 
   );
 };
