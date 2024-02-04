@@ -15,9 +15,9 @@ const Login = () => {
             <a href="#">Forgot password?</a>
         </div>
         <button type="submit" className={styles.btn} >Login</button>
-        <div className={styles.registerLink}>
-            <p> Don&apos;t have an account? <a href="#">Register</a> </p>
-        </div>
+        {/* <div className={styles.registerLink}>
+            <p> Don&apos;t have an account? <span className={styles.undrline}>Register</span> </p>
+        </div> */}
       </form>
     </div>
   )

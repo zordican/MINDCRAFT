@@ -1,7 +1,10 @@
+import Navbar from "../components/Navbar";
 import styles from "./Profile.module.scss";
 
 const Profile = () => {
   return (
+    <>
+    <Navbar/>
     <div className={styles.container}>
       <div className={styles.left}>
         <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
@@ -31,6 +34,7 @@ const Profile = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 export default Profile;
