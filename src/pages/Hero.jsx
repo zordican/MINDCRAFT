@@ -11,7 +11,7 @@ const Hero = () => {
     <Sidebar/>
     <div className={styles.container}>
         <div className={styles.head}>
-          <h2>MUST TODO...</h2>
+          <h2>MUST TODOO...</h2>
         </div>
         <div className={styles.runcontainer1}>
           <div className={styles.runitems}>
