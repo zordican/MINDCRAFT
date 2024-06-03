@@ -60,7 +60,7 @@ const Hero = () => {
             </div>
             <div className={styles.healthbar}></div>
             <div className={styles.details}>
-              <h5>Earned 145 Rest Points</h5>
+              <h5>Earned 145 Rest Pointsss</h5>
             </div>
           </div>
         </div>
