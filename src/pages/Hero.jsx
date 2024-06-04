@@ -87,7 +87,7 @@ const Hero = () => {
           </div>
           <div className={styles.right}>
             <div className={styles.imgr2}>
-              <h3 className={styles.xp1}>500 Rest Points Left</h3>
+              <h3 className={styles.xp1}>500 Rest Points Leftt</h3>
             </div>
             <div className={styles.rightimg}>
               <div className={styles.imgr1}>
