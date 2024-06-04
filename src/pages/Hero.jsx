@@ -56,7 +56,7 @@ const Hero = () => {
               />
             </div>
             <div className={styles.imgtext}>
-              <h4>Run 5000m</h4>
+              <h4>Run 50000m</h4>
             </div>
             <div className={styles.healthbar}></div>
             <div className={styles.details}>
