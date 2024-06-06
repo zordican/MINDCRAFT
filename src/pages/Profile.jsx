@@ -9,7 +9,7 @@ const Profile = () => {
     <div className={styles.child1}>
       <div className={styles.left}>
         <img src="https://res.cloudinary.com/db237jipn/image/upload/v1706950346/vrizhhgkcwtgvlodt9ez.svg"></img>
-        <h2 className={styles.lvl}>LEVEL 69</h2>
+        <h2 className={styles.lvl}>LEVEL 69000</h2>
       </div>
       <div className={styles.right}>
         <div className={styles.name}>
