@@ -38,7 +38,7 @@ const Landing = () => {
         build your character by completing your daily life goals. Compete
         against many quests and side quests for development of your character,
         earn XP by playing mind boosting games and unlock achievements to
-        compete against other players
+        compete against other players around the world.
       </p>
       <button className={styles.btn} type="button" onClick={toggleModal}>GET STARTED</button>
     </div>
